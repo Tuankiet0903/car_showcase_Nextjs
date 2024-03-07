@@ -1,8 +1,8 @@
 import { CarProps, FilterProps } from "@/types";
 
-export async function fetchCars( filters : FilterProps){
+export async function fetchCars(){
 
-    const { manufacturer, year, model, limit, fuel } = filters;
+    // const { manufacturer, year, model, limit, fuel } = filters;
 
     const headers = {
         'X-RapidAPI-Key': 'fe160b26e2msh1ee8f4f143a195bp15fb88jsn3ef61fd0c043',
